@@ -16,7 +16,8 @@ public class Main {
         HashMap<Student, Double> hm = new HashMap<>();
         hm.put(s1, 7.0);
         hm.put(s2, 8.0);
-        hm.put(s3, 9.2);
+        hm.put(null, 9.2);
+        System.out.println(hm);
         System.out.println(hm.get(s4));
         System.out.println(hm.containsKey(s4));
     }
